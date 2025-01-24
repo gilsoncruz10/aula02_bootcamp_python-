@@ -19,19 +19,19 @@ print(f"O resto da divisão por 5 é {resto}")
 '''
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-valor_1 =  int(input("insira o primeiro valor: "))
+'''valor_1 =  int(input("insira o primeiro valor: "))
 valor_2 =  int(input("insira o segundo valor: "))
 multiplicacao = valor_1 * valor_2
 print(f"O resultado da multiplicação é {multiplicacao}.")
+'''
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-'''
 numero_01 = int(input("Inserir um numero inteiro: "))
 numero_02 = int(input("Inserir outro numero inteiro: "))
 resultado = numero_01 // numero_02
 print(resultado)
-'''
+
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
