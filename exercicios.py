@@ -12,12 +12,18 @@ print(f"A soma é {soma}")
 '''
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-
+'''
 valor = int(input("insira um valor: "))
 resto = valor % 5
 print(f"O resto da divisão por 5 é {resto}")
+'''
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+valor_1 =  int(input("insira o primeiro valor: "))
+valor_2 =  int(input("insira o segundo valor: "))
+multiplicacao = valor_1 * valor_2
+print(f"O resultado da multiplicação é {multiplicacao}.")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
 '''
