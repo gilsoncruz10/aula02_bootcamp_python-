@@ -51,13 +51,20 @@ print(f"A soma dos números é {soma}.")
 '''
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-
+'''
 num_1 = float(input("insira o primeiro número: "))
 num_2 = float(input("insira o segundo número: "))
 media = (num_1 + num_2) / 2
 print(f"A média dos números inseridos é {media}.")
+'''
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+numero = int(input("insira o numero: "))
+potencia = int(input("insira a potencia: "))
+resultado = numero ** potencia
+print(f"O número {numero} elevado a potência {potencia} dá {resultado}.")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
