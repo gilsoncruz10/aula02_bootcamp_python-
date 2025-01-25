@@ -106,13 +106,16 @@ print(f'espacos inicial e final removidos na frase "{frase.strip()}."')
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e,
 # em seguida, imprima o dia, o mês e o ano separadamente.
-
+'''
 data = input("escreva a data no formato dd/mm/aaaa: ")
 separado = data.split("/")
 print(f"sua data é composta pelo dia {separado[0]}, mês {separado[1]} e ano {separado[2]}.")
-
+'''
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+frase_1 = input("escreva uma palavra: ")
+frase_2 = input("escreva outra frase: ")
+print(frase_1 + " " + frase_2)
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 # lista_de_dia_mes_ano = data_do_usuario.split("/")
