@@ -91,13 +91,17 @@ print(f"seu nome em maiúsculas é {caps}.")
 '''
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-
+'''
 nome = input("insira seu nome completo: ")
-#minusc = nome.lower()
-#print(f"seu nome em minúsculas é {minusc}")
-print(f"seu nome em minúsculas é {nome.lower()}")
+minusc = nome.lower()
+print(f"seu nome em minúsculas é {minusc}")
+#print(f"seu nome em minúsculas é {nome.lower()}")
+'''
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+frase = input("escreva uma frase: ")
+print(f'espaco inicial e final removidos na frase "{frase.strip()}."')
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
