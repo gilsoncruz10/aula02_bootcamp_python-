@@ -111,22 +111,48 @@ data = input("escreva a data no formato dd/mm/aaaa: ")
 separado = data.split("/")
 print(f"sua data é composta pelo dia {separado[0]}, mês {separado[1]} e ano {separado[2]}.")
 '''
-
-# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
-frase_1 = input("escreva uma palavra: ")
-frase_2 = input("escreva outra frase: ")
-print(frase_1 + " " + frase_2)
-
+'''
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
 # lista_de_dia_mes_ano = data_do_usuario.split("/")
 # print(f"O elemento 1 e o: {lista_de_dia_mes_ano[0]}")
 # print(f"O elemento 2 e o: {lista_de_dia_mes_ano[1]}")
 # print(f"O elemento 3 e o: {lista_de_dia_mes_ano[2]}")
+'''
+
+# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+'''
+frase_1 = input("escreva uma palavra: ")
+frase_2 = input("escreva outra frase: ")
+print(frase_1 + " " + frase_2)
+'''
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+#bole1 = input("insira um booleano: ")
+#bole2= input("insira outro booleano: ")
+#valor1 = bool(bole1)
+#valor2 = bool(bole2)
+#valor1 = bool(input("x: "))
+#valor2 = True
+#print(valor1, type(valor1))
+#resultado =  (valor1 and valor2)
+#print((valor1), type(bool(valor1)))
+#print(valor2, type(valor2))
+#print(f"o resultado de {bool(valor1)} AND {valor2} é: {resultado}.")
+#print(resultado)
+
+# Exemplo de entrada
+valor1 = False
+valor2 = True
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
