@@ -181,15 +181,24 @@ print("valor invertido:", valor_not_bool)
 '''
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+'''
 numero1 = int(input("Insira um número: "))
 numero2 = int(input("Insira outro número: "))
 if numero1 == numero2:
-    print("Os números são iguais")
+    print("Os números são iguais.")
 else:
-    print("Os números são diferentes")
-
+    print("Os números são diferentes.")
+'''
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+numero1 = int(input("Insira um número: "))
+numero2 = int(input("Insira outro número: "))
+print(f"Você digitou os números {numero1} e {numero2}.")
+if numero1 != numero2:
+    print("Os números são diferentes")
+else:
+    print("Os números são iguais")
 
 # #### try-except e if
 
