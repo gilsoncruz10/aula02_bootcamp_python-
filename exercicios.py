@@ -143,20 +143,43 @@ print(frase_1 + " " + frase_2)
 #print(resultado)
 
 # Exemplo de entrada
-#valor1 = False
-#valor2 = True
-#resultado_and = valor1 and valor2
-#print("Resultado do AND lógico:", resultado_and)
-
+'''
+valor1 = False
+valor2 = True
+resultado_and = valor1 and valor2
+print("Resultado do AND lógico:", resultado_and)
+'''
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+'''
 valor1 = False
 valor2 = False
 resultado_OR = valor1 or valor2
 print("Resultado do OR lógico:", resultado_OR)
+'''
 
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+#     MÉTODO 1 DO GILSON:
+'''
+valor = input("insira um valor booleano: ")
+# Converting string to boolean using eval
+valor_bool = eval(valor)
+valor_not_bool = not valor_bool
+print("valor inserido:", valor_bool, type(valor_bool))
+print("valor invertido:", valor_not_bool)
+'''
+#     MÉTODO 2 DO GILSON (melhor opção):
+valor = input("insira um valor booleano: ")
+# Converting string to boolean using strip, lower and comparison with other string
+valor_bool = valor.strip().lower() == "true"
+valor_not_bool = not valor_bool
+print("valor inserido:", valor_bool, type(valor_bool))
+print("valor invertido:", valor_not_bool)
+
+
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
