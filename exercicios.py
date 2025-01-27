@@ -191,7 +191,7 @@ else:
 '''
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
-
+'''
 numero1 = int(input("Insira um número: "))
 numero2 = int(input("Insira outro número: "))
 print(f"Você digitou os números {numero1} e {numero2}.")
@@ -199,10 +199,23 @@ if numero1 != numero2:
     print("Os números são diferentes")
 else:
     print("Os números são iguais")
+'''
 
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+
+entrada = input("insira a temperatura em graus celsius (somente números): ")
+try:
+    celsius = float(entrada)
+    fahr = (celsius * 9 / 5) + 32
+    print(f"A temperatura em fahrenheit é {fahr:.2f} °F")
+except ValueError as e:
+    print("Você não inseriu um valor aceitável. Tente novamente.")
+    print(e)
+
+
+
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
