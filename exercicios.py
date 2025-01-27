@@ -170,6 +170,7 @@ valor_not_bool = not valor_bool
 print("valor inserido:", valor_bool, type(valor_bool))
 print("valor invertido:", valor_not_bool)
 '''
+'''
 #     MÉTODO 2 DO GILSON (melhor opção):
 valor = input("insira um valor booleano: ")
 # Converting string to boolean using strip, lower and comparison with other string
@@ -177,10 +178,17 @@ valor_bool = valor.strip().lower() == "true"
 valor_not_bool = not valor_bool
 print("valor inserido:", valor_bool, type(valor_bool))
 print("valor invertido:", valor_not_bool)
-
-
+'''
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+numero1 = int(input("Insira um número: "))
+numero2 = int(input("Insira outro número: "))
+if numero1 == numero2:
+    print("Os números são iguais")
+else:
+    print("Os números são diferentes")
+
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
 
 # #### try-except e if
