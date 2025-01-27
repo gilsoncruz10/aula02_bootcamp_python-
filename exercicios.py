@@ -143,14 +143,17 @@ print(frase_1 + " " + frase_2)
 #print(resultado)
 
 # Exemplo de entrada
-valor1 = False
-valor2 = True
-resultado_and = valor1 and valor2
-print("Resultado do AND lógico:", resultado_and)
+#valor1 = False
+#valor2 = True
+#resultado_and = valor1 and valor2
+#print("Resultado do AND lógico:", resultado_and)
 
 
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-
+valor1 = False
+valor2 = False
+resultado_OR = valor1 or valor2
+print("Resultado do OR lógico:", resultado_OR)
 
 
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
