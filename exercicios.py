@@ -204,7 +204,7 @@ else:
 # #### try-except e if
 
 # 21: Conversor de Temperatura
-
+'''
 entrada = input("insira a temperatura em graus celsius (somente números): ")
 try:
     celsius = float(entrada)
@@ -213,10 +213,23 @@ try:
 except ValueError as e:
     print("Você não inseriu um valor aceitável. Tente novamente.")
     print(e)
-
-
+'''
 
 # 22: Verificador de Palíndromo
+# entrar palavra
+# remover espaços
+#ler de tras para frente = ler de frente para tras?
+#se true, é palindromo
+
+termo = input("insira a palavra: ")
+palavra_editada = termo.replace(" ", "").lower()
+palavra_invertida = palavra_editada[::-1]
+if palavra_editada == palavra_invertida:
+    print(f"Sim, o termo {termo} é um palíndromo.")
+else:
+    print(f"Não, o termo {termo} não é um palíndromo.")
+
+
 # 23: Calculadora Simples
 # 24: Classificador de Números
 # 25: Conversão de Tipo com Validação
